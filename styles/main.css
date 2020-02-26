@@ -6,3 +6,7 @@ body {
 h1 {
     text-align: center;
 }
+
+.bread-btn {
+    margin: 1rem;
+}
