@@ -18,7 +18,7 @@ const makeBreadRadioButtons = () => {
     const allBread = breads.getBreads();
     allBread.forEach((bread) => {
         domString += '<div class="input-group">'
-        domString += `<input type="checkbox" class="radio-btn" id="${bread.id}"aria-label="${bread.id}">`
+        domString += `<input type="checkbox" class="radio-btn" id="${bread.id}" aria-label="${bread.id}">`
         domString += `<p>${bread.type}</p>`
         domString += '</div>'
     }
