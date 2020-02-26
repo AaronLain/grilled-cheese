@@ -19,8 +19,16 @@ const breads = [
     }
 ];
 
+let selectedBreadId = '';
+
+const setSelectedBread = (breadId) => {
+    selectedBreadId = breadId;
+    console.log(breadId);
+    return selectedBreadId;  
+}
+
 const getBreads = () => {
     return breads;
 }
 
-export default { getBreads };
+export default { getBreads, setSelectedBread };
